@@ -3,7 +3,7 @@ import express from "express";
 import RSSParser from "rss-parser";
 
 // parsing feed
-const feedURL = "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+const feedURL = "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
 const parser = new RSSParser();
 let articles = [];
 const parse = async url => {
